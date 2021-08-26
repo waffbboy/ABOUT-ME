@@ -1,6 +1,9 @@
 
+/**cv style**/
+
 body{
     background-color: rgb(237, 237, 167);
+    margin:0px;
 }
 
 img{
@@ -10,7 +13,7 @@ img{
     float: left;
     margin-right: 20px; 
   }
-  div.box1{
+  .box1{
    width: 100%
  
   }
@@ -25,7 +28,7 @@ img{
    width: 60%;
    border-collapse: collapse;
   }
-  @media screen and (max-width:320px) {
+ 
       
 body{
     background-color: rgb(237, 237, 167);
@@ -53,4 +56,8 @@ img{
    width: 60%;
    border-collapse: collapse;
   }
+  @media screen and(max-width:320px) {
+      body{
+          width: 60%;
+      }
   }
