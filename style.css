@@ -8,13 +8,7 @@ body{
 }
 
 
-img{
-    width: 100px;  
-    border-radius: 50%;
-    margin-bottom: 20px;
-    float: left;
-    margin-right: 20px; 
-  }
+
   .box1{
    width: 100%
  
@@ -65,10 +59,12 @@ img{
        font-size: 0.8em;
        
    }
-    .box2, .box3{
+    .box1, .box2, .box3{
         width: fit-content;
     } 
-   
+    p{
+        font-size: 0.85em;
+    }
 }
 @media screen and (max-width:375px){
     h2,em{
@@ -76,8 +72,11 @@ img{
         font-size: 0.8em;
         
     }
-     .box2, .box3{
+     .box1, .box2, .box3{
          width: fit-content;
      } 
+     p{
+         font-size: 0.85em;
+     }
     
  }
