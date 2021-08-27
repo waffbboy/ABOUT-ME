@@ -62,7 +62,7 @@ img{
 @media screen and (max-width:320px){
    h2,em{
        display: block;
-       font-size: 1em;
+       font-size: 0.8em;
        
    }
     .box2, .box3{
@@ -73,7 +73,7 @@ img{
 @media screen and (max-width:375px){
     h2,em{
         display: block;
-        font-size: 1em;
+        font-size: 0.8em;
         
     }
      .box2, .box3{
