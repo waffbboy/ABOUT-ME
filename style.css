@@ -80,3 +80,17 @@ img{
      }
     
  }
+ @media screen and (max-width:425px){
+    h2,em{
+        display: block;
+        font-size: 0.8em;
+        
+    }
+     .box1, .box2, .box3{
+         width: fit-content;
+     } 
+     p{
+         font-size: 0.85em;
+     }
+    
+ }
